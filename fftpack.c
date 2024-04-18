@@ -66,6 +66,7 @@ static real c_abs(f77complex *c) { return sqrt(c->r*c->r + c->i*c->i); }
 static double dmax(double a, double b) { return a < b ? b : a; }
 #endif
 
+#define M_PI 3.141592654
 /* translated by f2c (version 20061008), and slightly edited */
 
 static void passfb(integer *nac, integer ido, integer ip, integer l1, integer idl1, 
